@@ -1,0 +1,111 @@
+
+
+.ChessPositionerGameLobby{
+    position: absolute;
+    left: 32%;
+    top: 10%;
+    right: 45%;
+
+}
+
+.PlayerBlack{
+    position: absolute;
+    width: 16%;
+    height: 15%;
+    left: 14%;
+    right: 10%;
+    top: 13%;
+}
+
+.PlayerBrown{
+    position: absolute;
+    width: 16%;
+    height: 15%;
+    left: 14%;
+    right: 10%;
+    Bottom: 13%;
+}
+
+.LobbyOptionsContainer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    right: 5%;
+    top: 15%;
+    bottom: 22%;
+    gap: 10%;
+}
+
+.LobbyName{
+    margin-left: 2.5%;
+    text-align: center;
+    color: black;
+    font-family: Inter,sans-serif;
+    font-size: 2vw;
+    text-shadow: 1px 1px 2px grey;
+
+}
+
+.LobbyOptionsButtons{
+    margin:0;
+    width: 100%;
+}
+
+.TimeSettings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#LobbyMinutes{
+    width: 50%;
+    color: black;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 1.5vw;
+    text-shadow: 2px 2px 4px grey;
+}
+
+.MatchTimeInput {
+    width: 50%;
+    border: 0;
+    background-color: #A6B8CE;
+    border-radius: 12px;
+    box-sizing: border-box;
+
+    color: white;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 1.5vw;
+    text-shadow: 2px 2px 4px grey;
+}
+.SmallButton {
+    margin:0;
+    height: 20%
+}
+
+#PlayerBlackTimer{
+    position: absolute;
+    top: 115%;
+
+
+}
+
+#PlayerWhiteTimer {
+    position: absolute;
+    bottom: 115%;
+
+}
+
+.LobbyOptionsButtonsStarted {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    height: 20%;
+    margin: auto auto;
+
+}

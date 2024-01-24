@@ -1,0 +1,45 @@
+.profile{
+    overflow: auto;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    text-shadow: 2px 2px 4px grey;
+    font-family: Inter, sans-serif;
+    position: fixed;
+    top: 20px;
+    }
+.playIcon{
+    align-items: center;
+    width: 10%;
+    justify-content: center;
+    margin-left: 15px;
+}
+.profile-Picture{
+
+    border-radius: 50%;
+    width: 20% !important;
+    height: 20% !important;
+    border: 3px solid #14202E;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.FriendsIcon{
+    align-items: normal;
+    width: 10%;
+    justify-content: center;
+    margin-left: 15px;
+}
+.ChessExpertIcon{
+    width: 20%;
+
+
+}
+.header{
+    display: flex;
+
+}
+.historylist{
+    margin-top: 5%;
+}

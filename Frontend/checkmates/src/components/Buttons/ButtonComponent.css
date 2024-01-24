@@ -1,0 +1,19 @@
+.GeneralButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+    background-color: #14202E;
+    color: white;
+    font-family: Inter,sans-serif;
+    font-size: 1vw;
+    text-shadow: 2px 2px 4px grey;
+    box-shadow: 2px 3px 4px black;
+}
+
+.GeneralButton:hover{
+    cursor: pointer;
+}

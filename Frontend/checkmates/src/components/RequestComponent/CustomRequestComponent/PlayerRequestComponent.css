@@ -1,0 +1,77 @@
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%); /* Start off-screen to the right */
+        opacity: 0; /* Optional: Start with 0 opacity */
+    }
+    100% {
+        transform: translateX(0); /* End at its final position */
+        opacity: 1; /* Optional: End with full opacity */
+    }
+}
+
+
+
+
+.PlayerRequestComponentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 10%;
+    background-color: #14202E;
+    border-radius: 12px;
+    padding: 1.5%;
+    margin-top: 2.5%;
+    animation: slideInFromRight 1s ease-out forwards;
+}
+
+.RequestText {
+    text-align: end;
+    display: flex;
+    font-size: 0.65vw;
+    align-items: center;
+    color: white;
+    flex: 1.5;
+    word-break: break-all;
+}
+
+.RequestButtons{
+    flex: 0.5;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.ButtonGreyBackground{
+    width: 28%;
+    padding-top: 28%;
+    position: relative;
+    border-radius: 50%;
+    margin-left: 10%;
+    background-color: #D9D9D9;
+
+}
+
+.RequestButtons img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; /* Adjust the size of the image inside the button */
+    height: auto;
+}
+
+
+
+.InvitingPlayer {
+    margin-left: 1%;
+    margin-right: 2%;
+    flex: 0.75;
+    display: flex;
+    font-size: 0.65vw;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    word-break: break-all;
+}

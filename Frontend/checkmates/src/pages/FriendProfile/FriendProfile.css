@@ -1,0 +1,63 @@
+.profile{
+    overflow: auto;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    text-shadow: 2px 2px 4px grey;
+    font-family: Inter, sans-serif;
+    z-index: 2;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.playIcon{
+    align-items: center;
+    width: 10%;
+    justify-content: center;
+    margin-left: 15px;
+}
+.profile-Picture{
+
+    border-radius: 50%;
+
+    width: 85%;
+    height: 90%;
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    border: 3px solid #14202E;
+    object-fit: cover;
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.FriendsIcon{
+    align-items: normal;
+    width: 10%;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.friendButton{
+
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 50%;
+    border-radius: 10px;
+    background-color: #14202E;
+
+    color: white;
+    font-family: Inter,sans-serif;
+    font-size: 1vw;
+    text-shadow: 2px 2px 4px grey;
+    box-shadow: 2px 3px 4px black;
+}

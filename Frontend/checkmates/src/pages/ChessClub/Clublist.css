@@ -1,0 +1,39 @@
+.ClubListItemMember{
+
+  background-color: #6F7378;
+
+}
+
+.ClubListItem {
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+
+}
+.ChessClubDescription {
+  display: flex;
+  justify-content: center;
+}
+
+.ChessClubName {
+  display: flex;
+  justify-content: center;
+}
+
+.ListButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 45%;
+  margin-top: 0;
+  margin-bottom: 5%;
+}
+
+.ListButtons  {
+
+
+}

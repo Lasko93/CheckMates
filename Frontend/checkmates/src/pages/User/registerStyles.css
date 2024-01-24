@@ -1,0 +1,104 @@
+.register-container {
+    padding: 30px;
+    width: 700px;
+    margin: 50px auto;
+}
+
+.register-form {
+    background-color: #3F5C76;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.register-form .form-group {
+    margin-bottom: 20px;
+}
+
+.register-form-label{
+    color: white;
+    margin-top: 10px;
+    position: relative;
+}
+
+.register-form .form-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ffffff; /* Only bottom border */
+    background-color: transparent; /* No background color */
+    color: white; /* White text color */
+    font-size: 16px;
+    outline: none;
+}
+
+.register-form .form-group .error-message,
+.register-form .form-group .error-text {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.register-form button {
+    background-color: #14202E;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    float: right;
+    margin-left: 10px;
+}
+
+.register-form button:hover {
+    background-color: rgba(20, 32, 46, 0.4);
+}
+
+.photo-upload {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.upload-label {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.upload-icon {
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.photo-preview {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.photo-input {
+    display: none;
+}
+
+.photo-label {
+    color: white;
+
+
+}
+
+.close-button{
+    background-color: #c34949 !important;
+    color:white;
+    padding-right: 10px;
+}
+.action-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+

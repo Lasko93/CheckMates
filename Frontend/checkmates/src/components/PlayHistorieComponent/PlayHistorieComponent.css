@@ -1,0 +1,21 @@
+.historielist{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.GameBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+    margin-bottom: 15px;
+    width: 80%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #14202E;
+    color: white;
+}
+
+

@@ -1,0 +1,47 @@
+.header{
+    overflow: auto;
+    color: white;
+    font-size: 2vw;
+    margin-left:15%;
+    font-family: Inter, sans-serif;
+}
+
+.ChessPositionerGameLobby2{
+    position: absolute;
+    left: 32%;
+    top: 20%;
+    right: 45%;
+
+}
+
+.PlayerBlack2{
+    position: absolute;
+    width: 16%;
+    height: 15%;
+    left: 14%;
+    right: 10%;
+    top:30%;
+}
+
+.PlayerBrown2{
+    position: absolute;
+    width: 16%;
+    height: 15%;
+    left: 14%;
+    right: 10%;
+    Bottom: 0;
+}
+
+
+
+.controls{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    right: 5%;
+    top: 30%;
+    bottom: 22%;
+    gap: 10%;
+}

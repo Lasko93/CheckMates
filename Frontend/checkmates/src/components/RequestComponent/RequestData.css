@@ -1,0 +1,29 @@
+.request-container {
+    flex-direction: column;
+    gap: 30px;
+    background-color: #6F7378;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: Inter, sans-serif;
+    font-size: 1em;
+    text-shadow: 2px 2px 4px grey;
+    box-shadow: 2px 3px 4px black;
+}
+
+.friend-info {
+    margin-left: 70px;
+    margin-right: 30px;
+}
+
+.friend-link {
+    margin-right: 30px;
+    color: white;
+    font-family: Inter, sans-serif;
+    font-size: 100%;
+    text-shadow: 2px 2px 4px grey;
+}

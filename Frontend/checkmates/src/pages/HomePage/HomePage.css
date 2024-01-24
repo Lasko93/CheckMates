@@ -1,0 +1,96 @@
+.ChessPositioner{
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    right: 45%;
+
+}
+
+.HomePageTitle {
+    font-size: 1vw;
+    text-align: center;
+    position: absolute;
+    left: 57%;
+    right: 5%;
+    top: 17%;
+    bottom: 15%;
+    width: 42%;
+    height: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+    .HomePageTitle {
+        top: 2%;
+        left: 24%
+    }
+
+    .ChessPositioner{
+        position: absolute;
+        left: 25%;
+        top: 10%;
+        right: 5%;
+    }
+
+    .StartButtons {
+        position: absolute;
+        left: 28%;
+        top: 38%;
+        max-height: 5%;
+    }
+}
+
+
+.StartButtons {
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    bottom: 15%;
+    width: 30%;
+    height: 25%;
+}
+
+
+
+@media (max-width: 992px) {
+    .HomePageTitle {
+        top: 2%;
+        left: 35%
+    }
+
+    .ChessPositioner{
+        position: absolute;
+        left: 40%;
+        top: 15%;
+        right: 5%;
+    }
+
+    .StartButtons {
+        position: absolute;
+        left: 45%;
+        top: 75%;
+        max-height: 10%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .HomePageTitle {
+        top: 2%;
+        left: 35%
+    }
+
+    .ChessPositioner{
+        position: absolute;
+        left: 40%;
+        top: 10%;
+        right: 5%;
+
+    }
+
+    .StartButtons {
+        position: absolute;
+        left: 45%;
+        top: 50%;
+        max-height: 10%;
+    }
+}

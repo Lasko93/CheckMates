@@ -1,0 +1,33 @@
+
+
+.my-toast-container .Toastify__toast {
+    border-radius: 10px;
+   margin-left: 4%;
+}
+
+.my-toast-container .Toastify__toast--error {
+    background-color: #2B4257;
+    color: white;
+
+}
+
+.primary-color{
+
+}
+
+.my-toast-container .Toastify__toast--success {
+    background-color: #2B4257;
+    color: white;
+}
+
+.my-toast-container .Toastify__toast--info {
+    background-color: #2B4257;
+    color: white;
+}
+
+.my-toast-container .Toastify__toast--warning {
+    background-color: #2B4257;
+    color: white;
+}
+
+

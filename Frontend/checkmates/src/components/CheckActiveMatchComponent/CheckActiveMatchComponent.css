@@ -1,0 +1,57 @@
+
+.popup_isActive {
+    position: relative;
+    width: 50%;
+    height: 20%;
+    background: #3F5C76;
+}
+
+.PopupHeadlines {
+    color: white;
+    font-family: Inter, sans-serif;
+    font-size: 2vw;
+    text-shadow: 2px 2px 4px grey;
+    text-align: center;
+}
+
+.PopupButtons {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 50%;
+    padding: 10px;
+}
+
+
+#ContinueButton {
+    margin-right: 10%;
+}
+#ContinueButton, #GiveUpButton {
+    transition: background-color 0.3s ease;
+
+}
+#ContinueButton:hover{
+    background-color: green;
+}
+
+#GiveUpButton:hover{
+    background-color: red;
+}
+
+.PopupTimeButtonContainer  {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin-left: 10%;
+}
+
+.popup .GeneralButton {
+    margin-top: 0;
+}
+
+

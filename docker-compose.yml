@@ -1,0 +1,46 @@
+version: "3.8"
+services:
+  react:
+    container_name: react
+    image: lasko93/react-app
+    depends_on:
+      - spring-boot
+    ports:
+      - 3000:3000
+
+    restart: unless-stopped
+    networks: 
+      - docker-spring-react
+
+  spring-boot:
+    container_name: spring
+    platform: linux/amd64
+    image: lasko93/springboot-app
+    depends_on:
+      - db
+    ports:
+      - 8080:8080
+
+    environment:
+      spring.datasource.url: jdbc:postgresql://db:5432/postgres?createDatabaseIfNotExist=true
+      spring.datasource.username: postgres
+      spring.datasource.password: q
+    restart: unless-stopped
+    networks:
+      - docker-spring-react
+
+  db:
+    container_name: db
+    image: postgres
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: q
+    ports:
+      - 5432:5432
+    restart: unless-stopped
+    networks:
+      - docker-spring-react
+
+networks:
+  docker-spring-react:

@@ -1,0 +1,21 @@
+.RequestContainer {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 25%;
+    height: 10%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-items: start;
+    z-index: 3;
+    flex-direction: column;
+    margin-top: 0.45%;
+    overflow-y: auto;
+
+}
+
+.RequestContainer::-webkit-scrollbar {
+    display: none;
+}

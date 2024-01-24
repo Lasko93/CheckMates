@@ -1,0 +1,42 @@
+.matches-list {
+    list-style-type: none;
+    padding: 0;
+}
+.match-name{
+    margin-left: 10px;
+}
+
+.match-item{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+    margin-bottom: 15px;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    background-color: #14202E;
+    color: white;
+}
+
+.match-details span {
+    margin-right: 20px;
+}
+
+.go-to-match-btn {
+    background-color: #16a085;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.go-to-match-btn:hover {
+    background-color: #149174;
+}

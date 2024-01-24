@@ -1,0 +1,34 @@
+.PlayerInvite {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 10%;
+    background-color: #14202E ;
+    margin-top: 1%;
+    color: white;
+    border-radius: 20px;
+    font-size: 1vw;
+}
+
+.PlayerInvite > div {
+    flex: 1 0 25%;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.InviteButtonsDiv{
+    height: 150%;
+
+}
+
+
+.InviteButtons {
+    width: 80%;
+    background-color: #88A9C3;
+    border-radius: 25px;
+    margin: auto auto;
+    font-size: 1.25vw;
+}

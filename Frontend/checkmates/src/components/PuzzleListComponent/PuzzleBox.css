@@ -1,0 +1,21 @@
+.puzzle-box {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 34%;
+    width: 30%;
+    height: 50%;
+    border-radius: 10px;
+    background-color: #14202E;
+    color: white;
+}
+
+
+.puzzlelink {
+    color: white;
+    font-family: Inter,sans-serif;
+    font-size: 100%;
+    margin-left:35%
+}

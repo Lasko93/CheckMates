@@ -1,0 +1,29 @@
+.profillink {
+    color: white;
+    font-family: Inter,sans-serif;
+    font-size: 100%;
+    margin-right:10%
+}
+
+.friendusername{
+    margin-left: 10%;
+}
+.friendnames{
+    margin-left: 2%;
+}
+
+.friend-box {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+    margin-bottom: 15px;
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+    background-color: #14202E;
+    color: white;
+}
+
+

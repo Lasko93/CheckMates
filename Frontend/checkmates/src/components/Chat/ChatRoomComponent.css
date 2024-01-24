@@ -1,0 +1,104 @@
+.chat-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 350px; /* Adjust the width as needed */
+    height: 500px; /* Adjust the height as needed */
+    background-color: #f9f9f9; /* Background color for the chat box */
+    border: 1px solid #ddd; /* Border color for the chat box */
+    border-radius: 8px; /* Rounded corners for the chat box */
+    display: flex;
+    flex-direction: column;
+    z-index: 1000; /* Ensure the chat box stacks on top of other content */
+}
+
+.chat-header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message-input {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+.messages {
+    flex-grow: 1;
+    overflow-y: auto; /* Makes the message list scrollable */
+    padding: 10px;
+    border-top: 1px solid #ddd; /* Separates the header from messages */
+    color:#14202E;
+    font-size: 15px;
+    align-items: flex-end;
+}
+/* ChatRoomComponent.css */
+.message {
+    background-color: #030c16; /* Blue background for the message bubble */
+    color: white; /* White text color */
+    padding: 4px 8px; /* Padding inside the message bubble */
+    border-radius: 20px; /* Rounded corners for the message bubble */
+    display: flex; /* Inline-flex so it doesn't stretch full width */
+    margin-bottom: 5px; /* Space between messages */
+    align-items: flex-start;
+    max-width: 80%;
+    flex-direction: column;
+    overflow-y: auto; /* Allow scrolling */
+
+
+}
+
+
+.message .text {
+    color: white; /* White text color */
+    padding: 8px 12px; /* Padding inside the message bubble */
+    border-radius: 16px; /* Rounded corners for the message bubble */
+    word-wrap: break-word; /* Break long words onto the next line */
+    font-size: 12px;
+    max-width: calc(100% - 60px); /* Adjust the width based on the parent container's width and padding */
+
+}
+
+
+.message-actions {
+    display: flex; /* Flex display to line up the edit and delete buttons */
+    gap: 4px; /* Space between buttons */
+    margin-left: auto; /* Pushes the actions to the right */
+}
+
+
+.edit-btn,
+.delete-btn {
+    background: none;
+    border: none;
+    color: white; /* White color for the icons */
+    cursor: pointer;
+    padding: 0;
+    font-size: 1rem; /* Adjust icon size */
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    color: #007bff; /* Highlight color on hover */
+}
+.message:hover .message-actions {
+    visibility: visible;
+}
+
+.message-actions {
+    visibility: hidden; /* Hide by default, only show on hover */
+}
+.sender {
+    background-color: white;
+    border-radius: 5px; /* Rounded corners for the message bubble */
+    font-weight: bold;
+    color: black;
+    box-sizing:content-box ;
+    padding: 4px 8px; /* Padding inside the sender's name box */
+    font-size: 0.9em; /* Smaller font size for the sender's name */
+    margin-right: 8px;
+    white-space: nowrap; /* Prevent the sender's name from wrapping */
+}

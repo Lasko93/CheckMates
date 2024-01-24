@@ -1,0 +1,51 @@
+.Leaderboard{
+    overflow: auto;
+    color: white;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-bottom: 15px;
+    width: 80%;
+    justify-content: flex-start;
+    font-family: Inter, sans-serif;
+    padding: 20px;
+
+
+}
+.LeaderbordIcon{
+    align-items: normal;
+    width: 15%;
+    justify-content: center;
+    margin-right: 15px;
+}
+.LeaderboardHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    color: white;
+}
+
+.LeaderboardList {
+    display: flex;
+    flex-direction: column;
+}
+
+.UserBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #14202E;
+    color: white;
+
+
+}
+
+.Rank, .Nickname, .Points {
+    margin-right: 5%;
+}

@@ -1,0 +1,107 @@
+.chat-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 100;
+}
+
+.chat-toggle {
+    padding: 5px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Added to separate from chat-box */
+}
+
+.chat-box {
+    width: 300px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.chat-messages {
+    height: 200px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    max-width: 80%;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #e9ecef;
+}
+
+.message.sent {
+    align-self: flex-end;
+    background-color: #007bff;
+    color: white;
+}
+
+.message.received {
+    align-self: flex-start;
+}
+
+.sender-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.message-content {
+    position: relative;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #e9ecef;
+    word-wrap: break-word;
+}
+
+.message-options {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.message-content:hover .message-options {
+    display: block;
+}
+
+.message-options button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.message-options button:hover {
+    text-decoration: underline;
+}
+
+.chat-input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.send-button {
+    padding: 5px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
